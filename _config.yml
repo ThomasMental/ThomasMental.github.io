@@ -25,6 +25,9 @@ url: "https://thomasmental.github.io" # the base hostname & protocol for your si
 twitter_username: 
 github_username:  ThomasMental
 email: t66zhu@uwaterloo.ca
+linkedIn_username: Taochen Zhu
+
+description_footer: 前端开发记录 
 
 # Build settings
 theme: minima
