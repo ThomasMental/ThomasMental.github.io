@@ -2,17 +2,13 @@
 layout: page
 title: About
 permalink: /about/
+type: page
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+## About Me
+Nothing here yet
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+## Contact Me
+* Github:[ThomasMental](https://github.com/thomasmental)
+* email: t66zhu@uwaterloo.ca
+* [知乎 Zhihu](https://www.zhihu.com/people/wu-liao-de-zhu-san)
