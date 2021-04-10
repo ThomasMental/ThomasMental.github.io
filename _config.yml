@@ -23,6 +23,8 @@ brief-intro: UW Computer Science student
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://thomasmental.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
+permalink: /:year/:month/:day/:title/
+
 twitter_username: 
 github_username:  ThomasMental
 email: t66zhu@uwaterloo.ca
