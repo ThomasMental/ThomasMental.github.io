@@ -31,7 +31,7 @@ linkedIn_username: Taochen Zhu
 description_footer: 前端开发记录 
 
 # Build settings
-theme: minima
+theme: Lanyon
 plugins:
   - jekyll-feed
 
