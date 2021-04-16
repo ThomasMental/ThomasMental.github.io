@@ -26,9 +26,8 @@ jekyll是一个简单的免费的Blog生成工具，一个生成静态网页的�
 
 ### 配置 Ruby
 
-[https://rubyinstaller.org/](http://rubyinstaller.org)
-官网下载RubyInstaller并安装。
-安装完自动运行 
+Windows系统去[https://rubyinstaller.org/](http://rubyinstaller.org)
+官网下载RubyInstaller并安装。安装完选择自动运行 
 
 ```
   ridk install
@@ -40,7 +39,7 @@ jekyll是一个简单的免费的Blog生成工具，一个生成静态网页的�
   ruby -v
 ```
 
-输出版本号则安装成功
+查看是否安装成功
 
 
 ### 安装 Jekyll 和 Bundler
