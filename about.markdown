@@ -15,5 +15,3 @@ type: page
 * 知乎 Zhihu：[无聊的三](https://www.zhihu.com/people/wu-liao-de-zhu-san)
 
 ## Comments
-
-{% include comments.html %}
