@@ -21,8 +21,13 @@ jekyll是一个简单的免费的Blog生成工具，一个生成静态网页的�
 
 个人用的Windows系统
 主要过程: 
+* 建立 GitHub 库
 * 配置 Ruby
 * 安装 Jekyll 和 Bundler
+
+### 建立 GitHub 库
+
+登录到GitHub，新建一个Repository，将其命名为 ```<user>.github.io```
 
 ### 配置 Ruby
 
