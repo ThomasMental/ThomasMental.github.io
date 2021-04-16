@@ -8,7 +8,7 @@ categories: jekyll update
  
 做个人博客是为了什么，当然是为了学(zhuang)习(bi)了(yong)。看了下别人的学习过程，我也来记录一下github pages + jekyll搭建博客的过程。
 
-GitHub Docs 官方教程
+GitHub Docs 官方教程: 
 [https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll)
 
 ## Jekyll 介绍
@@ -30,9 +30,13 @@ jekyll是一个简单的免费的Blog生成工具，一个生成静态网页的�
 [https://rubyinstaller.org/](http://rubyinstaller.org)
 官网下载RubyInstaller并安装。
 安装完自动运行 
+
+<div style="background-color: rgb(50, 50, 50);">
 ```
   ridk install
 ```
+</div>
+
 按提示按Enter就行了
 
 ### 安装 Jekyll
