@@ -1,5 +1,5 @@
 ---
-layout: postd
+layout: post
 title: Jekyll Blog 个人博客搭建(1)
 categories: jekyll
 date: 2021-04-16
