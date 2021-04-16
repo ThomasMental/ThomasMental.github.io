@@ -38,11 +38,10 @@ jekyll是一个简单的免费的Blog生成工具，一个生成静态网页的�
 
 按提示按Enter就行了。安装完运行指令
 
-<div style="background-color: rgb(50, 50, 50);">
 ```
   ruby -v
 ```
-</div>
+
 安装成功则输出版本号
 
 
