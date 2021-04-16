@@ -9,7 +9,7 @@ categories: jekyll update
 做个人博客是为了什么，当然是为了学(zhuang)习(bi)了(yong)。看了下别人的学习过程，我也来记录一下github pages + jekyll搭建博客的过程。
 
 GitHub Docs 官方教程
-
+[https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll)
 
 ## Jekyll 介绍
 
