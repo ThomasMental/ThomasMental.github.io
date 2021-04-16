@@ -30,11 +30,9 @@ jekyll是一个简单的免费的Blog生成工具，一个生成静态网页的�
 官网下载RubyInstaller并安装。
 安装完自动运行 
 
-<div style="background-color: rgb(50, 50, 50);">
 ```
   ridk install
 ```
-</div>
 
 按提示按Enter就行了。安装完运行指令
 
