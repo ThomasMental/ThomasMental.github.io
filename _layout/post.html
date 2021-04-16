@@ -1,0 +1,14 @@
+<div id="gitmentContainer"></div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+    owner: 'ThomasMental',
+    repo: 'thomasmental.github.io',
+    oauth: {
+        client_id: '5c4eba7b28a76bba632a',
+        client_secret: '4abb80aefc11f6b0083b594ce1ce272794bedd19',
+    },
+});
+gitment.render('gitmentContainer');
+</script>
