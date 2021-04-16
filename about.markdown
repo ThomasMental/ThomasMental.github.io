@@ -6,8 +6,8 @@ type: page
 ---
 
 ## About Me
-Taochen Zhu 朱陶宸
-
+# Taochen Zhu 朱陶宸
+1B Computer Science | University of Waterloo
 
 ## Contact Me
 * Github:[ThomasMental](https://github.com/thomasmental)
