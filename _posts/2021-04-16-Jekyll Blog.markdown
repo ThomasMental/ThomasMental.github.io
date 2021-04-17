@@ -68,6 +68,6 @@ Windows系统去[https://rubyinstaller.org/](http://rubyinstaller.org)
 然后执行```jekyll new```命令
 
 ```
-  jekyll new . # create a jekyll website in the directory
+  jekyll new . 
 ```
 
