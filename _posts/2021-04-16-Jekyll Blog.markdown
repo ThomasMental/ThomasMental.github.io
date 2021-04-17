@@ -65,9 +65,9 @@ Windows系统去[https://rubyinstaller.org/](http://rubyinstaller.org)
   cd user.github.io
 ```
 
-然后执行下列语句
+然后执行```jekyll new```命令
 
 ```
-  jekyll new .
+  jekyll new . # create a jekyll website in the directory
 ```
 
