@@ -75,16 +75,16 @@ Windows系统去[https://rubyinstaller.org/](http://rubyinstaller.org)
 
 ```
   .
-  ├── .git
-  ├── _posts
-  │   ├── 2021-04-17-welcome-to-jekyll.markdown
-  ├── .gitignore.txt
-  ├── _config.yml
-  ├── 404.html
-  ├── about.markdown
-  ├── Gemfile
-  ├── Gemfile.lock
-  ├── index.markdown
+  ├─ .git
+  ├─ _posts
+  │  ├─ 2021-04-17-welcome-to-jekyll.markdown
+  ├─ .gitignore.txt
+  ├─ _config.yml
+  ├─ 404.html
+  ├─ about.markdown
+  ├─ Gemfile
+  ├─ Gemfile.lock
+  ├─ index.markdown
 ```
 
 然后打开Gemfile这个文件，按文件内提示将```gem "jekyll"```注释并将```gem "github-pages"```解除注释后改成
