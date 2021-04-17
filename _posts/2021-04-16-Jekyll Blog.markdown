@@ -27,9 +27,7 @@ jekyll是一个简单的免费的Blog生成工具，一个生成静态网页的�
 
 ### 建立 GitHub 库
 
-登录到GitHub，新建一个Repository，名字一定要是```<user>.github.io```(user为你的GitHub用户名)。
-
-![](images/2021-04-16-Jekyll-Blog/image1.JPG)
+登录到GitHub，新建一个Repository，名字一定要是```<user>.github.io```(user为你的GitHub用户名)。推荐使用GitHub Desktop, 创建之后可以直接选择 Set up in Desktop，非常方便。
 
 ### 配置 Ruby
 
