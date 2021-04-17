@@ -29,6 +29,8 @@ jekyll是一个简单的免费的Blog生成工具，一个生成静态网页的�
 
 登录到GitHub，新建一个Repository，名字一定要是```<user>.github.io```(user为你的GitHub用户名)。
 
+![](images/2021-04-16-Jekyll Blog/image1.JPG)
+
 ### 配置 Ruby
 
 Windows系统去[https://rubyinstaller.org/](http://rubyinstaller.org)
@@ -48,6 +50,8 @@ Windows系统去[https://rubyinstaller.org/](http://rubyinstaller.org)
 
 
 ### 安装 Jekyll 和 Bundler
+
+运行
 
 ```
   gem install jekyll bundler
