@@ -54,3 +54,5 @@ Windows系统去[https://rubyinstaller.org/](http://rubyinstaller.org)
 ```
   gem install jekyll bundler
 ```
+
+**注意: 运行bundler请确保你的安装地址不要有中文，比如你的用户名文件夹，不然会报错的！！** 
