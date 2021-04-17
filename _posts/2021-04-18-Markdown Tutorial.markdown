@@ -1,6 +1,6 @@
 ---
 layout: post
-title: markdown 语法汇总
+title: Markdown 语法汇总
 categories: markdown
 date: 2021-04-21
 ---
