@@ -96,5 +96,5 @@ Windows系统去[https://rubyinstaller.org/](http://rubyinstaller.org)
 其中```GITHUB-PAGES-VERSION```替换成当前版本。<br>
 版本可以在这里查看: [Versions](https://pages.github.com/versions/) <br>
 
-保存并关闭文件。运行```bundle update```。然后将这些文件放到GitHub的repository里（用GitHub Desktop直接Push），恭喜你，你的静态博客成功搭建了。网址是你的repository的名字，也就是```<user>.github.io```
+保存并关闭文件。运行```bundle update```。然后将这些文件放到GitHub的repository里（用GitHub Desktop直接Push），恭喜你，你的静态博客成功搭建了。网址是你的repository的名字，也就是```<user>.github.io```。
 
