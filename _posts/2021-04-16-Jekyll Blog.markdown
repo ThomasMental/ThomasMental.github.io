@@ -71,3 +71,30 @@ Windows系统去[https://rubyinstaller.org/](http://rubyinstaller.org)
   jekyll new . 
 ```
 
+得到下列文件目录
+
+```
+  .
+  ├── .git
+  ├── _posts
+  │   ├── 2021-04-17-welcome-to-jekyll.markdown
+  ├── .gitignore.txt
+  ├── _config.yml
+  ├── 404.html
+  ├── about.markdown
+  ├── Gemfile
+  ├── Gemfile.lock
+  ├── index.markdown
+```
+
+然后打开Gemfile这个文件，按文件内提示将```gem "jekyll"```注释并将```gem "github-pages"```解除注释后改成
+
+```
+  gem "github-pages", "~> GITHUB-PAGES-VERSION", group: :jekyll_plugins
+```
+
+其中```GITHUB-PAGES-VERSION```替换成当前版本。<br>
+版本可以在这里查看: [Versions](https://pages.github.com/versions/) <br>
+
+保存并关闭文件。运行```bundle update```。然后将这些文件放到GitHub的repository里（用GitHub Desktop直接Push），恭喜你，你的静态博客成功搭建了。网址是你的repository的名字，也就是```<user>.github.io```
+
