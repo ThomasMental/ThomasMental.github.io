@@ -29,7 +29,7 @@ jekyll是一个简单的免费的Blog生成工具，一个生成静态网页的�
 
 登录到GitHub，新建一个Repository，名字一定要是```<user>.github.io```(user为你的GitHub用户名)。
 
-![](thomasmental.github.io/images/2021-04-16-Jekyll Blog/image1.JPG)
+![](ThomasMental.github.io/images/2021-04-16-Jekyll Blog/image1.JPG)
 
 ### 配置 Ruby
 
