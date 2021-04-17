@@ -59,7 +59,7 @@ _斜**加粗**体_ <br>
 [超链接2](https://thomasmental.github.io/, '一个链接')
 
 特殊写法: [链接名][代号]
-[click][3]
+[click] [3]
 然后定义这个链接信息信息
 [3]: https://thomasmental.github.io/
 
@@ -70,7 +70,7 @@ _斜**加粗**体_ <br>
 
 [超链接1](https://thomasmental.github.io/) <br>
 [超链接2](https://thomasmental.github.io/, '一个链接') <br>
-[click][3] <br>
+[click] [3] <br>
 [3]: https://thomasmental.github.io/ <br>
 <https://thomasmental.github.io/> <br>
 
@@ -83,3 +83,4 @@ _斜**加粗**体_ <br>
 效果图:
 
 这一句话<br>分两行
+
