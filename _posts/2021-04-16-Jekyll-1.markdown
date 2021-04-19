@@ -99,5 +99,5 @@ Windows系统去[https://rubyinstaller.org/](http://rubyinstaller.org)
 
 ## 传送门
 
-下一章: [Jekyll Blog 个人博客搭建(2)](https://thomasmental.github.io/2021/04/16/Jekyll-2/)
+下一章: [Jekyll Blog 个人博客搭建(2)](https://thomasmental.github.io/2021/04/20/Jekyll-2/)
 
