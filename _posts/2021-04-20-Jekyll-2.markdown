@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Jekyll Blog 个人博客搭建(2)
-categories: jekyll
+categories: Jekyll
 date: 2021-04-20
 ---
 
