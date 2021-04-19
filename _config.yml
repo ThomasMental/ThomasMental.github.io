@@ -26,9 +26,9 @@ url: "https://thomasmental.github.io" # the base hostname & protocol for your si
 permalink: /:year/:month/:day/:title/
 
 twitter_username: 
-github_username:  ThomasMental
+github:  ThomasMental
 email: t66zhu@uwaterloo.ca
-linkedIn_username: Taochen Zhu
+linkedIn: Taochen Zhu
 
 description_footer: 前端开发记录 
 
