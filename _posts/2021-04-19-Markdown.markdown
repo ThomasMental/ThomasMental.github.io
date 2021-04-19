@@ -93,9 +93,13 @@ ___
   ```
     printf("hello world");
   ```
+
+  ``` c
+    printf("hello world");
+  ```
 ```
 
 效果图: 
-```
+``` c
     printf("hello world");
 ```
