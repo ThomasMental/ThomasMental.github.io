@@ -5,7 +5,7 @@ categories: jekyll
 date: 2021-04-20
 ---
 
-在上一章里面我们利用 GitHub Pages 和 Jekyll 初步生成这个博客。这一章简单讲讲博客文件夹的结构以及如何发表自己的文章。没读过前文的可以去看一下[上一章](https://thomasmental.github.io/2021/04/16/Jekyll-1/)。
+在上一章里面我们利用 GitHub Pages 和 Jekyll 初步生成这个博客。这一章简单讲讲博客文件夹的结构以及如何添加自己的内容。没读过前文的可以去看一下[上一章](https://thomasmental.github.io/2021/04/16/Jekyll-1/)。
 
 文档链接: <https://jekyllrb.com/docs>
 
@@ -26,5 +26,4 @@ date: 2021-04-20
   ├─ index.markdown
 ```
 
-
-
+我们先添加一个 pages 文件夹，用于存放一些特别的页面，例如 categories, about等等。这里面的文件
