@@ -5,4 +5,24 @@ categories: jekyll
 date: 2021-04-20
 ---
 
-阅读本章前请确保你读过了[上一章]
+再上一章里面我们利用GitHub Pages和Jekyll初步生成这个博客。这一章简单讲讲博客文件夹的结构以及如何发表自己的文章。没读过前文的可以去看一下[上一章](https://thomasmental.github.io/2021/04/16/Jekyll-1/)。
+
+文档链接: <jekyllrb.com/docs>
+
+## Directory Structure 文件夹结构
+
+刚建立博客，我们目前的文件夹目录应该为:
+
+```
+  .
+  ├─ _posts
+  │  ├─ 2021-04-17-welcome-to-jekyll.markdown
+  ├─ .gitignore.txt
+  ├─ _config.yml
+  ├─ 404.html
+  ├─ about.markdown
+  ├─ Gemfile
+  ├─ Gemfile.lock
+  ├─ index.markdown
+```
+
