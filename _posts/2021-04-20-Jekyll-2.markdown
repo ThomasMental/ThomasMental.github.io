@@ -1,0 +1,8 @@
+---
+layout: post
+title: Jekyll Blog 个人博客搭建(2)
+categories: jekyll
+date: 2021-04-20
+---
+
+阅读本章前请确保你读过了[上一章]
