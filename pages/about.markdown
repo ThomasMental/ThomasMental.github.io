@@ -5,9 +5,11 @@ permalink: /about/
 type: page
 ---
 
-# Taochen Zhu 朱陶宸
+## Taochen Zhu 朱陶宸
 
-1B Computer Science | University of Waterloo
+1B Computer Science 
+
+University of Waterloo
 
 刚刚开始写网页的萌新玩家，近期应该会长期更新。。
 
