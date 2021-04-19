@@ -1,24 +1,35 @@
 <footer class="site-footer h-card">
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+
   <div class="wrapper">
 
     <div class="footer-col-wrapper">
       <div class="footer-col">
-        {% if site.github_username %}
-          <a href="https://github.com/{{site.github_username}}" title="GitHub"><i class="fa fa-github" aria-hidden="true"></i></a>
-        {% endif %}
-        {% if site.email %}
-          <a href="mailto:{{site.email}}" title="email"><i class="fa fa-envelope-o" aria-hidden="true"></i></a> 
-        {% endif %}
-        {% if site.zhihu_username %}
-          <a href="https://www.zhihu.com/people/{{site.zhihu_username}}" title="Zhihu"><i class="iconfont icon-daoruzhihu"></i></a> 
-        {% endif %}
-        {% if site.linkedIn_username %}
-          <a href="https://www.linkedin.com/in/{{site.linkedIn_username}}" title="LinkedIn"><i class="fa fa-linkedin" aria-hidden="true"></i></a> 
-        {% endif %}
+        <p class="feed-subscribe">
+          <a href="{{ 'feed.xml' | relative_url }}">
+            <svg class="svg-icon orange">
+              <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      {%- if site.author %}
+        <ul class="contact-list">
+          {% if site.author.name -%}
+            <li class="p-name">{{ site.author.name | escape }}</li>
+          {% endif -%}
+          {% if site.author.email -%}
+            <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
+          {%- endif %}
+        </ul>
+      {%- endif %}
       </div>
       <div class="footer-col">
-        <p>{{ site.description_footer | escape }}</p>
+        <p>{{ site.description | escape }}</p>
       </div>
+    </div>
+
+    <div class="social-links">
+      {%- include social.html -%}
     </div>
 
   </div>
