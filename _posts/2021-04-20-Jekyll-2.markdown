@@ -5,7 +5,7 @@ categories: jekyll
 date: 2021-04-20
 ---
 
-再上一章里面我们利用GitHub Pages和Jekyll初步生成这个博客。这一章简单讲讲博客文件夹的结构以及如何发表自己的文章。没读过前文的可以去看一下[上一章](https://thomasmental.github.io/2021/04/16/Jekyll-1/)。
+在上一章里面我们利用 GitHub Pages 和 Jekyll 初步生成这个博客。这一章简单讲讲博客文件夹的结构以及如何发表自己的文章。没读过前文的可以去看一下[上一章](https://thomasmental.github.io/2021/04/16/Jekyll-1/)。
 
 文档链接: <https://jekyllrb.com/docs>
 
