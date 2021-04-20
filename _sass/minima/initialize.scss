@@ -43,9 +43,6 @@ $on-large:         $on-laptop !default;
 
 // Import pre-styling-overrides hook and style-partials.
 @import
-  "minima/custom-variables", // Hook to override predefined variables.
   "minima/base",             // Defines element resets.
-  "minima/footer",
   "minima/layout",
-  "minima/custom-styles"     // Hook to override existing styles.
 ;
