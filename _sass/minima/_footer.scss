@@ -16,7 +16,7 @@
         margin: 0 auto;
         padding: 15px 0;
         text-align: center;
-        font-size: 14px;
+        @include relative-font-size(0.9375);;
         p {
             margin: 0;
             line-height: 1.6;
@@ -31,7 +31,7 @@
                 }
                 i {
                     margin: 0 5px;
-                     @include relative-font-size(0.9375);
+                    @include relative-font-size(0.9375);
                 }
             }
         }
