@@ -1,26 +1,24 @@
 <footer class="site-footer h-card">
   <div class="wrapper">
 
-    <div class="footer-col-wrapper">
-      <ul class="contact-list">
-        {% if site.github_username %}
-          <li><a href="https://github.com/{{site.github_username}}" title="GitHub"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-        {% endif %}
-        {% if site.email %}
-          <li><a href="mailto:{{site.email}}" title="email"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
-        {% endif %}
-        {% if site.zhihu_username %}
-          <li><a href="https://www.zhihu.com/people/{{site.zhihu_username}}" title="Zhihu"><i class="iconfont icon-daoruzhihu"></i></a></li>
-        {% endif %}
-        {% if site.linkedIn_username %}
-          <li><a href="https://www.linkedin.com/in/{{site.linkedIn_username}}" title="LinkedIn"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-        {% endif %}
-      </div>
-      <div class="footer-col">
-        <p>{{ site.description_footer | escape }}</p>
-      </div>
-    </div>
-
+    <p class="description">{{ site.description_footer | escape }}</p>
+    <p class="contact">
+      {% if site.github_username %}
+        <a href="https://github.com/{{site.github_username}}" title="GitHub"><i class="fa fa-github" aria-hidden="true"></i></a>
+      {% endif %}
+      {% if site.email %}
+        <a href="mailto:{{site.email}}" title="email"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+      {% endif %}
+      {% if site.zhihu_username %}
+        <a href="https://www.zhihu.com/people/{{site.zhihu_username}}" title="Zhihu"><i class="iconfont icon-daoruzhihu"></i></a>
+      {% endif %}
+      {% if site.linkedIn_username %}
+        <a href="https://www.linkedin.com/in/{{site.linkedIn_username}}" title="LinkedIn"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+      {% endif %}
+    </p>
+    <p>
+      本站总访问量<span id="busuanzi_value_site_pv"></span>次，本站访客数<span id="busuanzi_value_site_uv"></span>人次，本文总阅读量<span id="busuanzi_value_page_pv"></span>次
+    </p>
   </div>
-
 </footer>
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
