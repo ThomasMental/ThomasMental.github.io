@@ -164,7 +164,8 @@ code {
   font-size: 0.9375em;
   border: 1px solid $border-color-01;
   border-radius: 3px;
-  background-color: $code-background-color;
+  background-color: #f7f7f7;
+  box-shadow: 0 2px 2px 0 rgb(0 0 0 / 16%), 0 0 0 1px rgb(0 0 0 / 8%);
 }
 
 code {
