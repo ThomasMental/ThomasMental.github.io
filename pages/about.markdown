@@ -5,9 +5,9 @@ permalink: /about/
 type: page
 ---
 
-## Taochen Zhu 朱陶宸
+## Taochen Zhu
 
-1B Computer Science 
+Computer Science 
 
 University of Waterloo
 
