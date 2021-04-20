@@ -152,7 +152,13 @@ blockquote {
     font-style: normal;
   }
 }
-
+blockquote.pass {
+  border-left: 3px solid #009a61;
+  background: #f6f6f6;
+  color: #555;
+  padding: 0.2rem 0 0 0.7rem;
+  box-shadow: none;
+}
 
 
 /**
@@ -164,8 +170,7 @@ code {
   font-size: 0.9375em;
   border: 1px solid $border-color-01;
   border-radius: 3px;
-  background-color: #f7f7f7;
-  box-shadow: 0 2px 2px 0 rgb(0 0 0 / 16%), 0 0 0 1px rgb(0 0 0 / 8%);
+  background-color: $code-background-color;
 }
 
 code {

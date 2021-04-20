@@ -21,12 +21,15 @@ date: 2021-04-19
 
 效果图:
 
+<blockquote class="pass">
+
 ### 三级标题
 
 #### 四级标题
 
 ##### 五级标题
 
+</blockquote>
 
 ## Emphasis 强调
 
@@ -38,9 +41,13 @@ date: 2021-04-19
 
 效果图:
 
+<blockquote class="pass">
+
 **加粗** <br>
 _斜体_ <br>
 _斜**加粗**体_ <br>
+
+</blockquote>
 
 ## Strikethrough 删除线
 
@@ -50,7 +57,11 @@ _斜**加粗**体_ <br>
 
 效果图:
 
+<blockquote class="pass">
+
 ~~装逼~~学习
+
+</blockquote>
 
 ## Hyperlink 超链接
 
@@ -62,9 +73,13 @@ _斜**加粗**体_ <br>
 
 效果图:
 
+<blockquote class="pass">
+
 [超链接1](https://thomasmental.github.io/) <br>
 [超链接2](https://thomasmental.github.io/ '一个链接') <br>
 <https://thomasmental.github.io/> <br>
+
+</blockquote>
 
 ## Newline 换行
 
@@ -74,7 +89,11 @@ _斜**加粗**体_ <br>
 
 效果图:
 
+<blockquote class="pass">
+
 这一句话<br>分两行
+
+</blockquote>
 
 ## 分割线
 
@@ -84,22 +103,27 @@ _斜**加粗**体_ <br>
 ```
 
 效果图:
+
+<blockquote class="pass">
+
 ___
 \_\_\_
 
+</blockquote>
+
 ## 代码块
 
-``` 
   ```
+    (`) 省略括号重复三次
     printf("hello world");
+    (`) 省略括号重复三次
   ```
-
-  ``` c
-    printf("hello world");
-  ```
-```
 
 效果图: 
-``` c
+
+<blockquote class="pass">
+
+``` 
     printf("hello world");
 ```
+</blockquote>
