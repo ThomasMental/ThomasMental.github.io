@@ -170,6 +170,7 @@
 @media screen and (max-width:1200px) and (min-width: 770px) {
     .site-footer {
         .wrapper {
+            display: flex;
             width: 90%;
         }
     }
@@ -177,6 +178,7 @@
 @media screen and (max-width: 770px) {
     .site-footer {
         .wrapper {
+            display: flex;
             width: 90%;
         }
     }
