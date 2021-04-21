@@ -33,13 +33,13 @@ zhihu_username: wu-liao-de-zhu-san
 
 description_footer: 前端开发记录博客 
 
+duoshuo_shortname: 
+disqus_shortname: zhutaochen
+
 # Build settings
 theme: minima
 plugins:
   - jekyll-paginate
-
-duoshuo_shortname: 
-disqus_shortname: zhutaochen
 
 # paginate
 gems: [jekyll-paginate]
