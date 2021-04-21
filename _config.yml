@@ -36,10 +36,14 @@ description_footer: 前端开发记录博客
 # Build settings
 theme: minima
 plugins:
-  - jekyll-feed
+  - jekyll-paginate
 
 duoshuo_shortname: 
 disqus_shortname: zhutaochen
+
+# paginate
+gems: [jekyll-paginate]
+paginate: 10
 
 # Exclude from processing.
 # The following items will not be processed, by default.
