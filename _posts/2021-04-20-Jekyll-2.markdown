@@ -29,8 +29,8 @@ date: 2021-04-20
 我们先添加一个名为 _pages 的文件夹，用于存放我们的页面文件，例如 categories, about等等。如下图所示
 
 ```
-.
-├─ about.md         # => http://example.com/about.html
-├─ index.html       # => http://example.com/
-└─ categories.html  # => http://example.com/categories.html
+  .
+  ├─ about.md         # => http://example.com/about.html
+  ├─ index.html       # => http://example.com/
+  └─ categories.html  # => http://example.com/categories.html
 ```
