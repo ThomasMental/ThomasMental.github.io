@@ -162,9 +162,9 @@ code {
   padding: 1px 5px;
   font-family: $code-font-family;
   font-size: 0.9375em;
-  border: 1px solid $border-color-01;
+  border: 1px solid #d7d0d2;
   border-radius: 3px;
-  background-color: $code-background-color;
+  background-color: rgba(0,0,0,0.06);
 }
 
 pre {
