@@ -7,7 +7,7 @@ date: 2021-04-20
 
 在上一章里面我们利用 GitHub Pages 和 Jekyll 初步生成这个博客。这一章简单讲讲博客文件夹的结构以及如何添加自己的内容。没读过前文的可以去看一下[上一章](https://thomasmental.github.io/2021/04/16/Jekyll-1/)。
 
-文档链接: <https://jekyllrb.com/docs>
+参考文档链接: <https://jekyllrb.com/docs>
 
 ## Directory Structure 文件夹结构
 
@@ -30,7 +30,18 @@ date: 2021-04-20
 
 ```
   .
-  ├─ about.md         # => http://example.com/about.html
-  ├─ index.html       # => http://example.com/
-  └─ categories.html  # => http://example.com/categories.html
+  ├─ about.md
+  ├─ index.html
+  └─ categories.html
+```
+
+通过 Jekyll 我们可以在这些文件的开头添加 YAML frontmatter 来指定你页面的路径和标题等。例如你希望你的 categories.html 展示在```user.github.io/categories```，我们可以在前面写:
+
+```
+---
+layout: default
+title: Categories
+permalink: /category/
+type: page
+---
 ```
