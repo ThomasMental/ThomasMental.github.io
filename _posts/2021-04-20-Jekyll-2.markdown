@@ -3,6 +3,7 @@ layout: post
 title: Jekyll Blog 个人博客搭建(2)
 categories: Jekyll
 date: 2021-04-20
+author: Taochen
 ---
 
 在上一章里面我们利用 GitHub Pages 和 Jekyll 初步生成这个博客。这一章简单讲讲博客文件夹的结构以及如何添加自己的内容。没读过前文的可以去看一下[上一章](https://thomasmental.github.io/2021/04/16/Jekyll-1/)。

@@ -3,6 +3,7 @@ layout: post
 title: Markdown 语法汇总(同步更新中)
 categories: Markdown
 date: 2021-04-19
+author: Taochen
 ---
 
 本文介绍通用的Markdown语法，平台特有不涉及。
