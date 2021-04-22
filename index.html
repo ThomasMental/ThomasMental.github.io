@@ -7,8 +7,15 @@ layout: default
 
 <div class="page clearfix">
     <div class="left">
-        <h1 class="page-header">Welcome to Taochen's Blog!</h1>
+        <h1 class="page-heading">Welcome to Taochen's Blog!</h1>
         <small>Front End Development 前端学习之路</small>
+
+        {% if site.paginate %}
+            {% assign posts = paginator.posts %}
+        {% else %}
+            {% assign posts = site.posts %}
+        {% endif %}
+
         <hr>
         {%- if posts.size > 0 -%}
             {%- if page.list_title -%}
