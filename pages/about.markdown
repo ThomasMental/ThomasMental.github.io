@@ -20,3 +20,5 @@ Github: [ThomasMental](https://github.com/thomasmental)
 email: t66zhu@uwaterloo.ca
 
 知乎 Zhihu：[无聊的三](https://www.zhihu.com/people/wu-liao-de-zhu-san)
+
+领英 Linkedin: [Zhu Taochen](https://www.linkedin.com/in/taochen-zhu)
