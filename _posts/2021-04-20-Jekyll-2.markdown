@@ -35,7 +35,7 @@ date: 2021-04-20
 └─ categories.html
 ```
 
-通过 Jekyll 我们可以在这些文件的开头添加 YAML frontmatter 来指定你页面的路径和标题等。例如你希望你的 categories.html 展示在```user.github.io/categories```，我们可以在前面写:
+通过 Jekyll 我们可以在这些文件的开头添加 YAML frontmatter 来指定你页面的路径和标题等。例如你希望你的 categories.html 展示在```user.github.io/categories```，我们可以在内容的前面写:
 
 ```
 ---
@@ -46,4 +46,3 @@ type: page
 ---
 ```
 
-然后在后面添加页面的内容
