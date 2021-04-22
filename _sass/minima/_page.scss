@@ -21,6 +21,11 @@
   
     > li {
       margin-bottom: $spacing-unit;
+      time {
+        display: inline-block;
+        width: 135px;
+        color: #7e7e7e; 
+      }
     }
   }
   
