@@ -6,6 +6,19 @@
   padding: $spacing-unit 0;
   flex: 1 0 auto;
   
+  .label { 
+    margin-top: 10px;
+    overflow: hidden;
+    .label-card {
+      float: left;
+      margin-right: 10px;
+      i {
+        padding-right: 5px;
+        color: #636363;
+      }
+    }
+  }
+
   .page-heading {
     @include relative-font-size(2);
   }
