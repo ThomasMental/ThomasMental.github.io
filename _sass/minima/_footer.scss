@@ -2,7 +2,11 @@
  * Site footer
  */
  .site-footer {
-    position: relative;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
     padding: 15px 0;
 
     text-align: center;
