@@ -21,11 +21,16 @@
   
     > li {
       margin-bottom: $spacing-unit;
-      time {
-        display: inline-block;
-        width: 135px;
-        color: #7e7e7e; 
-      }
+        time {
+          display: inline-block;
+          width: 135px;
+          color: #7e7e7e; 
+        }
+        .title { 
+          font-weight: bold;
+          transition: 0.3s ease;
+          color: #223253;
+        }
     }
   }
   
