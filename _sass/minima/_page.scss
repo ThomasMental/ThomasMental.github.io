@@ -2,10 +2,9 @@
  * Page content
  */
 
-.page-clearfixt {
-    padding: $spacing-unit 0;
-    flex: 1 0 auto;
-  }
+.page-clearfix {
+  padding: $spacing-unit 0;
+  flex: 1 0 auto;
   
   .page-heading {
     @include relative-font-size(2);
@@ -15,22 +14,22 @@
     @include relative-font-size(1.75);
   }
   
-  .post-list {
+  ul {
     margin-left: 0;
     list-style: none;
   
-    > li {
+    li {
       margin-bottom: $spacing-unit;
-        time {
-          display: inline-block;
-          width: 135px;
-          color: #7e7e7e; 
-        }
-        .title { 
-          font-weight: bold;
-          transition: 0.3s ease;
-          color: #223253;
-        }
+      time {
+        display: inline-block;
+        width: 135px;
+        color: #7e7e7e; 
+      }
+      .title { 
+        font-weight: bold;
+        transition: 0.3s ease;
+        color: #223253;
+      }
     }
   }
   
@@ -43,3 +42,4 @@
     display: block;
     @include relative-font-size(1.5);
   }
+}
