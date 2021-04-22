@@ -14,25 +14,25 @@ date: 2021-04-20
 刚建立博客，我们目前的文件夹目录应该为:
 
 ```
-  .
-  ├─ _posts
-  │  ├─ 2021-04-17-welcome-to-jekyll.markdown
-  ├─ .gitignore.txt
-  ├─ _config.yml
-  ├─ 404.html
-  ├─ about.markdown
-  ├─ Gemfile
-  ├─ Gemfile.lock
-  ├─ index.markdown
+.
+├─ _posts
+│  ├─ 2021-04-17-welcome-to-jekyll.markdown
+├─ .gitignore.txt
+├─ _config.yml
+├─ 404.html
+├─ about.markdown
+├─ Gemfile
+├─ Gemfile.lock
+├─ index.markdown
 ```
 
 我们先添加一个名为 _pages 的文件夹，用于存放我们的页面文件，例如 categories, about等等。如下图所示
 
 ```
-  .
-  ├─ about.md
-  ├─ index.html
-  └─ categories.html
+.
+├─ about.md
+├─ index.html
+└─ categories.html
 ```
 
 通过 Jekyll 我们可以在这些文件的开头添加 YAML frontmatter 来指定你页面的路径和标题等。例如你希望你的 categories.html 展示在```user.github.io/categories```，我们可以在前面写:
@@ -45,3 +45,5 @@ permalink: /category/
 type: page
 ---
 ```
+
+然后在后面添加页面的内容
