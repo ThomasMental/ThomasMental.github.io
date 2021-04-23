@@ -90,7 +90,7 @@ ___
 
 ## Code Block 代码块
 
-```markdown
+```
 (`) 忽略括号重复三次后面加语言 样例为c
 printf("hello world");
 (`) 忽略括号重复三次
