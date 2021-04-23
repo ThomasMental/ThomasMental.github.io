@@ -6,9 +6,9 @@ date: 2021-04-20
 author: Taochen
 ---
 
-在上一章里面我们利用 GitHub Pages 和 Jekyll 初步生成这个博客。这一章简单讲讲博客文件夹的结构以及如何添加自己的内容。没读过前文的可以去看一下[上一章](https://thomasmental.github.io/2021/04/16/Jekyll-1/)。
+在上一章里面我们利用 GitHub Pages 和 Jekyll 初步生成这个博客。这一章简单讲讲博客文件夹的结构以及如何在博客里添加自己的内容。没读过前文的可以去看一下[上一章](https://thomasmental.github.io/2021/04/16/Jekyll-1/)。
 
-参考文档链接: <https://jekyllrb.com/docs>
+官方文档链接: <https://jekyllrb.com/docs>
 
 ## Directory Structure 文件夹结构
 
@@ -27,16 +27,38 @@ author: Taochen
 ├─ index.markdown
 ```
 
-我们先添加一个名为 _pages 的文件夹，用于存放我们的页面文件，例如 categories, about等等。如下图所示
+自己设计博客一般会用到以下几个文件夹
+
+### _layouts 
+
+```_layouts``` 文件夹存放作用于帖子的模板，或者说是布局文件。建静态博客一般存这四个模板
+
+```
+.
+├─ home.html    # 主页模板
+├─ page.html    # 页面模板
+├─ post.html    # 帖子模板
+└─ default.html # 自定义模板
+```
+
+### 
+
+
+## Add Content 添加内容
+
+### Add pages 添加页面
+
+我们添加一个名为 _pages 的文件夹，用于存放我们的页面文件，例如 categories, about等等。这些文件可以是 html 或者 markdown 文件，如下图所示
 
 ```
 .
 ├─ about.md
 ├─ index.html
-└─ categories.html
+├─ categories.html
+└─ tags.html
 ```
 
-通过 Jekyll 我们可以在这些文件的开头添加 YAML frontmatter 来指定你页面的路径和标题等。例如你希望你的 categories.html 展示在```user.github.io/categories```，我们可以在内容的前面写:
+通过 Jekyll 我们可以在这些文件的开头添加 YAML frontmatter 来指定你页面的路径和标题等。例如你希望你的 categories.html 展示在```user.github.io/categories```，我们可以文件的开头写:
 
 ```
 ---
@@ -47,3 +69,4 @@ type: page
 ---
 ```
 
+然后在下面添加页面的内容。
