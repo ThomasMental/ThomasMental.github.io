@@ -37,19 +37,6 @@
   border-radius: 5px;
   text-align: right;
 
-  .nav-trigger {
-    display: none;
-  }
-
-  label[for="nav-trigger"] {
-    display: block;
-    float: right;
-    width: 36px;
-    height: 36px;
-    z-index: 2;
-    cursor: pointer;
-  }
-
   ul {
     display: block;
     margin: 0 0;
