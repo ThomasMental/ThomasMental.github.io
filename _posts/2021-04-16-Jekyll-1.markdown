@@ -34,13 +34,13 @@ jekyll是一个简单的免费的Blog生成工具，一个生成静态网页的�
 Windows系统去[https://rubyinstaller.org/](http://rubyinstaller.org)
 官网下载RubyInstaller并安装。安装完选择自动运行 
 
-```console
+```
 $ ridk install
 ```
 
 按提示按Enter就行了。安装完运行指令
 
-```console
+```
 $ ruby -v
 ```
 
@@ -51,7 +51,7 @@ $ ruby -v
 
 执行下面的语句安装
 
-```console
+```
 $ gem install jekyll bundler
 ```
 
@@ -61,13 +61,13 @@ $ gem install jekyll bundler
 
 在之前我们创建了一个Repository并且将其放到了指定的位置。我们先进入这个文件夹
 
-```console
+```
 $ cd user.github.io
 ```
 
 然后执行```jekyll new```命令
 
-```console
+```
 $ jekyll new . 
 ```
 
@@ -89,7 +89,7 @@ $ jekyll new .
 
 然后打开Gemfile这个文件，按文件内提示将```gem "jekyll"```注释并将```gem "github-pages"```解除注释后改成
 
-``` console
+```
 gem "github-pages", "~> GITHUB-PAGES-VERSION", group: :jekyll_plugins
 ```
 
