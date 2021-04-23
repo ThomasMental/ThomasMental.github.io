@@ -37,6 +37,10 @@
   border-radius: 5px;
   text-align: right;
 
+  .nav-trigger {
+    display: none;
+  }
+
   ul {
     display: block;
     margin: 0 0;
