@@ -115,11 +115,11 @@ gem "github-pages", "~> GITHUB-PAGES-VERSION", group: :jekyll_plugins
 >  Server running... press ctrl-c to stop.
 ```
 
+这时候我们只要访问<http://127.0.0.1:4000/>就可以在本地看我们的网页了。
+
 可能碰到的问题有```require': cannot load such file -- webrick (LoadError)```，可以通过执行```bundle add webrick```来解决。
 
 ## 传送门
 
 下一章: [Jekyll Blog 个人博客搭建(2)](https://thomasmental.github.io/2021/04/20/Jekyll-2/)
-
-## Comments
 
