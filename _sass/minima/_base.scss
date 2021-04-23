@@ -144,10 +144,6 @@ blockquote {
   @include relative-font-size(1.125);
   font-style: italic;
 
-  > h1, h2, h3, h4, h5, h6 { 
-    margin-top: 15px;
-  }
-
   > :last-child {
     margin-bottom: 0;
   }
