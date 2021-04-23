@@ -98,6 +98,25 @@ gem "github-pages", "~> GITHUB-PAGES-VERSION", group: :jekyll_plugins
 
 保存并关闭文件。运行```bundle update```。然后将这些文件放到GitHub的repository里（用GitHub Desktop直接Push），恭喜你，你的静态博客成功搭建了。网址是你的repository的名字，也就是```<user>.github.io```。
 
+## 本地测试
+
+打开 Git Bash，执行```bundle install```以及```bundle exec jekyll serve```，得到类似以下的结果则运行成功
+
+```
+> Configuration file: /my-site/_config.yml
+>            Source: /my-site
+>       Destination: /my-site/_site
+> Incremental build: disabled. Enable with --incremental
+>      Generating...
+>                    done in 0.309 seconds.
+> Auto-regeneration: enabled for '/my-site'
+> Configuration file: /my-site/_config.yml
+>    Server address: http://127.0.0.1:4000/
+>  Server running... press ctrl-c to stop.
+```
+
+可能碰到的问题有```require': cannot load such file -- webrick (LoadError)```，可以通过执行```bundle add webrick```来解决。
+
 ## 传送门
 
 下一章: [Jekyll Blog 个人博客搭建(2)](https://thomasmental.github.io/2021/04/20/Jekyll-2/)
