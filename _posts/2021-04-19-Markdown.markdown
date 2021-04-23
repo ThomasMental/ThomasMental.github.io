@@ -45,7 +45,7 @@ _斜**加粗**体_
 ## Strikethrough 删除线
 
 ``` markdown
-  ~~装逼~~学习
+~~装逼~~学习
 ```
 
 效果图:
@@ -54,7 +54,7 @@ _斜**加粗**体_
 
 ## Hyperlink 超链接
 
-```
+```markdown
 [超链接1](https://thomasmental.github.io/)
 [超链接2](https://thomasmental.github.io/, '一个链接')
 展示链接: <https://thomasmental.github.io/>
@@ -78,7 +78,7 @@ _斜**加粗**体_
 
 ## 分割线
 
-```
+```markdown
 ___
 \_\_\_
 ```
@@ -87,14 +87,26 @@ ___
 >___
 >\_\_\_
 
-## 代码块
-```
+## Code Block 代码块
+
+```markdown
 (`) 忽略括号重复三次后面加语言 样例为c
 printf("hello world");
 (`) 忽略括号重复三次
 ```
 
 效果图: 
+
 >``` c
 >printf("hello world");
 >```
+
+## Blockquote 引用块
+
+``` markdown
+> 一段话
+```
+
+效果图:
+
+>一段话

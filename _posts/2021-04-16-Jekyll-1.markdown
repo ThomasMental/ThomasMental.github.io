@@ -34,14 +34,14 @@ jekyll是一个简单的免费的Blog生成工具，一个生成静态网页的�
 Windows系统去[https://rubyinstaller.org/](http://rubyinstaller.org)
 官网下载RubyInstaller并安装。安装完选择自动运行 
 
-```
-  ridk install
+```console
+ridk install
 ```
 
 按提示按Enter就行了。安装完运行指令
 
-```
-  ruby -v
+```console
+ruby -v
 ```
 
 查看是否安装成功
@@ -51,8 +51,8 @@ Windows系统去[https://rubyinstaller.org/](http://rubyinstaller.org)
 
 执行下面的语句安装
 
-```
-  gem install jekyll bundler
+```console
+gem install jekyll bundler
 ```
 
 **注意: 运行bundler请确保你的安装地址不要有中文，比如你的用户名文件夹，不然会报错的！！** 
@@ -61,30 +61,30 @@ Windows系统去[https://rubyinstaller.org/](http://rubyinstaller.org)
 
 在之前我们创建了一个Repository并且将其放到了指定的位置。我们先进入这个文件夹
 
-```
-  cd user.github.io
+```console
+cd user.github.io
 ```
 
 然后执行```jekyll new```命令
 
-```
+```console
   jekyll new . 
 ```
 
 得到下列文件目录
 
 ```
-  .
-  ├─ .git
-  ├─ _posts
-  │  ├─ 2021-04-17-welcome-to-jekyll.markdown
-  ├─ .gitignore.txt
-  ├─ _config.yml
-  ├─ 404.html
-  ├─ about.markdown
-  ├─ Gemfile
-  ├─ Gemfile.lock
-  ├─ index.markdown
+.
+├─ .git
+├─ _posts
+│  ├─ 2021-04-17-welcome-to-jekyll.markdown
+├─ .gitignore.txt
+├─ _config.yml
+├─ 404.html
+├─ about.markdown
+├─ Gemfile
+├─ Gemfile.lock
+├─ index.markdown
 ```
 
 然后打开Gemfile这个文件，按文件内提示将```gem "jekyll"```注释并将```gem "github-pages"```解除注释后改成
@@ -101,4 +101,6 @@ Windows系统去[https://rubyinstaller.org/](http://rubyinstaller.org)
 ## 传送门
 
 下一章: [Jekyll Blog 个人博客搭建(2)](https://thomasmental.github.io/2021/04/20/Jekyll-2/)
+
+## Comments
 
