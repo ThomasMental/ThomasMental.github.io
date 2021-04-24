@@ -4,9 +4,8 @@
 
 .page-clearfix {
   display: block;
-  padding: $spacing-unit 0;
   flex: 1 0 auto;
-  
+
   .label { 
     margin-top: 10px;
     overflow: hidden;
@@ -24,14 +23,6 @@
     display: inline-block;
     width: 135px;
     color: #7e7e7e; 
-  }
-
-  .page-heading {
-    @include relative-font-size(2);
-  }
-  
-  .post-list-heading {
-    @include relative-font-size(1.75);
   }
   
   ul.category {
@@ -51,22 +42,37 @@
   
   .post-meta {
     font-size: $small-font-size;
-    color: $brand-color;
   }
   
   .post-link {
     display: block;
+    color: $text-color;
     @include relative-font-size(1.5);
   }
 
   .post-list {
     list-style: none;
     margin-left: 0;
-    hr {
-      border: 0;
-      border-top: 1px solid #eee;
-      
+    border-radius: 2px;
+    li {
+      padding: 0.2em 1.5em 1em 1.5em;
+      box-shadow: 0 0 3px #7e7e7e;
+      margin-bottom: $spacing-unit * 2;
     }
+  }
+
+  hr {
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: $spacing-unit 0;
+  }
+
+  .page-heading {
+    @include relative-font-size(2);
+  }
+  
+  .post-list-heading {
+    @include relative-font-size(1.75);
   }
 
 }

@@ -55,6 +55,7 @@ hr {
  * `main` element
  */
 main {
+  padding-top: $spacing-unit;
   display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */
 }
 
