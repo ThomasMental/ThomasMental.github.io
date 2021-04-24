@@ -20,9 +20,9 @@ layout: default
             </time>
           {%- endif -%}
           {%- if page.author -%}
-            • {% for author in page.author %}
+            {% for author in page.author %}
               <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-                <span class="p-author h-card" itemprop="name">{{ author }}</span></span>
+                <span class="p-author h-card" itemprop="name"><i class="fa fa-user"></i>{{ author }}</span></span>
                 {%- if forloop.last == false %}, {% endif -%}
             {% endfor %}
           {%- endif -%}</p>
@@ -34,9 +34,7 @@ layout: default
 
       <h2>Comments</h2>
       
-      {%- if site.disqus_shortname -%}
-        {%- include disqus_comments.html -%}
-      {%- endif -%}
+      {%- include disqus_comments.html -%}
 
       <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
     </article>
