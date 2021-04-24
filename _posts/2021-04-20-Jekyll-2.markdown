@@ -6,7 +6,9 @@ date: 2021-04-20
 author: Taochen
 ---
 
-在上一章里面我们利用 GitHub Pages 和 Jekyll 初步生成这个博客。这一章简单讲讲博客文件夹的结构以及如何在博客里添加自己的内容。没读过前文的可以去看一下[上一章](https://thomasmental.github.io/2021/04/16/Jekyll-1/)。
+在上一章里面我们利用 GitHub Pages 和 Jekyll 初步生成这个博客。这一章简单讲讲博客文件夹的结构，同时简单提几句网页设计的构思。然后介绍一下如何在博客里添加自己的内容，当然官方文档里写的都挺清楚，我这里更多是重复以及附加的一点解释。没读过前文的可以去看一下上一章。
+
+前文链接: [Jekyll Blog 个人博客搭建(1)](https://thomasmental.github.io/2021/04/16/Jekyll-1/)。
 
 官方文档链接: <https://jekyllrb.com/docs>
 
@@ -27,9 +29,9 @@ author: Taochen
 ├─ index.markdown
 ```
 
-自己设计博客一般会用到以下几个文件夹
+在自己设计博客一般会用到以下几个文件夹，**如果准备套模板可以忽略这些内容，这里建议锻炼一下自己的前端三件套(html, css, javascript)的能力**
 
-### _layouts 
+### layouts 
 
 ```_layouts``` 文件夹存放作用于帖子的模板，或者说是布局文件。建静态博客一般存这四个模板
 
@@ -41,8 +43,25 @@ author: Taochen
 └─ default.html # 自定义模板
 ```
 
-### 
+### includes
 
+```_includes``` 文件夹存放模板文件的组合部分，例如 footer, header 等，用于注入到模板中
+
+```
+.
+├─ head.html      # 头文件
+├─ header.html    # 页面顶部
+├─ footer.html    # 页面底部
+└─ comments.html  # 评论区
+```
+
+### sass 与 assets
+
+这里两个文件夹放在一起说是因为都是存放 scss 文件的地方，也就是样式表。```assets```通常存放一个主文件，用于 import 其他位于```_sass```文件夹中的样式表文件。当然全写在主文件不用```_sass```文件夹也可以，就是很累咯。建议是给对应部分建对应的样式表文件，例如给 header.html 写个 _header.scss，footer.html 写个 _footer.scss。
+
+### js
+
+存放 javascript 文件，可以在页面添加一些好玩的效果，这个大坑后面慢慢填 (ง `ω´)ง
 
 ## Add Content 添加内容
 
@@ -62,7 +81,7 @@ author: Taochen
 
 ```
 ---
-layout: default
+layout: page
 title: Categories
 permalink: /category/
 type: page
@@ -70,3 +89,39 @@ type: page
 ```
 
 然后在下面添加页面的内容。
+
+### Add posts 添加页面
+
+在```_posts```文件夹下新建 markdown 文件，文件名为```Year-Month-Date-Name.markdown```，前面是发布的时间，后面名字可以随意起。和添加页面一样，我们也得在文件开头添加 YAML frontmatter，然后添加自己的内容，如下所示:
+
+```
+---
+layout: post
+title: post-title
+date: year-month-date
+category: post-category
+author: name
+---
+```
+
+### 关于 YAML frontmatter
+
+这些元素可用于注入到你的模板文件中。例如你在每篇文章的下面都想添加日期和作者，我们便可将这些标签注入到 html. 举个例子，我们希望将当前页面作者作为文章的一个标签，就可以像下面这样写
+
+``` html
+---
+tag: something
+---
+
+<h1>{% raw %}{{ page.tag }}{% endraw %}</h1>
+```
+
+这样我们就成功添加了一个一级标题，标题为 something，是页面 tag 里的内容。
+
+除此以外```_config.yml```里面的属性也都是可以注入到网页中的。具体的一些操作下一章来讲。
+
+## 传送门
+
+上一章: [Jekyll Blog 个人博客搭建(1)](https://thomasmental.github.io/2021/04/16/Jekyll-1/)
+
+下一章: [Jekyll Blog 个人博客搭建(3)](https://thomasmental.github.io/2021/04/25/Jekyll-3/)

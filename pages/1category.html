@@ -18,7 +18,7 @@ icon: th
                         {% if post.url %}
                         <li>
                             <time>
-                                {{ post.date | date: "%F" }}{{ post.date | date: "%a"}}
+                                {{ post.date | date: "%F" }} {{ post.date | date: "%a"}}
                             </time>
 
                             <a class="title" href="{{ post.url | site.baseurl }}">{{ post.title }}</a>
