@@ -46,7 +46,6 @@ valine:
   enable: true
   appid: your-appid
   appkey: your-appkey
-  enableQQ: true
 ```
 
 这里 your-appid 和 your-appkey 替换成 LeanCloud 上的那两个。
@@ -67,7 +66,7 @@ valine:
             appId: {% raw %} '{{ site.valine.appid }}', {% endraw %}
             appKey: {% raw %} '{{ site.valine.appkey }}', {% endraw %}
             path: {% raw %} '{{ page.url }}', {% endraw %}
-            enableqq: {% raw %} '{{ site.valine.enableQQ }}' {% endraw %}
+            enableqq: true
         });
     </script>
 {% raw %}{%- endif -%}{% endraw %}

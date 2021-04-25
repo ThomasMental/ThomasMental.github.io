@@ -39,7 +39,6 @@ valine:
   enable: true
   appid: 3F8pJVhOgXIHW9hPNnANeEWz-gzGzoHsz
   appkey: f25MdMjKjx4WUTWskdEBPgz1
-  enableQQ: true 
 
 # Build settings
 theme: minima
