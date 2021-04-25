@@ -34,7 +34,11 @@ zhihu_username: wu-liao-de-zhu-san
 description_footer: 前端开发记录博客 
 
 duoshuo_shortname: 
-disqus_shortname: zhutaochen
+disqus_shortname: 
+valine: 
+  enable: true
+  appid: 3F8pJVhOgXIHW9hPNnANeEWz-gzGzoHsz
+  appkey: f25MdMjKjx4WUTWskdEBPgz1
 
 # Build settings
 theme: minima
