@@ -73,7 +73,7 @@ valine:
 {% raw %}{%- endif -%}{% endraw %}
 ```
 
-这样你的评论系统就配置完成了。所有的评论都会存在 LeanCloud 的结构化数据中。垃圾留言过滤系统可以搜下 Akismet，这里不多讲述。
+这样你的评论系统就配置完成了。所有的评论都会存在 LeanCloud 的结构化数据中。对 Valine 评论系统后续开发感兴趣可以看看 [Valine-Admin](https://github.com/zhaojun1998/Valine-Admin)，这里不多讲述。
 
 
 
