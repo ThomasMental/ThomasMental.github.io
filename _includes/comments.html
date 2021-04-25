@@ -32,7 +32,7 @@
             appId: '{{ site.valine.appid }}',
             appKey: '{{ site.valine.appkey }}',
             path: '{{ page.url }}',
-            enableQQ: true
+            enableQQ: '{{ site.valine.enableQQ }}'
         });
     </script>
 {%- endif -%}
