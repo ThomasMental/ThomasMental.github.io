@@ -16,8 +16,66 @@ author: Taochen
 * **畅言**: 博客要备案
 * **Gitalk**: 同样要 GitHub 账号
 
-类似还有很多，问题都有一点吧。
+类似还有很多，给我整自闭了。
 
 ## 解决方案
 
-最终决定使用 Valine。免费开源且不被墙，简直是救星（T_T）。
+最终决定使用 Valine。免费开源且不被墙，这作者简直是国内评论系统的救星（T_T）。这里附上官网链接
+
+Valine官网教程：<https://valine.js.org/en/quickstart.html>
+
+## 操作步骤
+
+总共操作就以下两步
+
+* 配置 LeanCloud
+* 添加代码
+
+### 配置 LeanCloud
+
+首先我们[注册LeanCloud](https://leancloud.cn/dashboard/login.html#/signup)
+
+然后创建一个[应用](https://leancloud.cn/dashboard/applist.html#/newapp)。创建完成点进去选择左下角```设置```>```应用Key```，就能看到你的 AppID 以及 AppKey 了。
+
+### 添加代码
+
+首先打开```config.yml```，在里面添加
+
+``` yml
+valine: 
+  enable: true
+  appid: your-appid
+  appkey: your-appkey
+  enableQQ: true
+```
+
+这里 your-appid 和 your-appkey 替换成 LeanCloud 上的那两个。
+
+然后打开```comments.html```这个专门放评论系统的文件，然后在下面添加
+
+``` html
+{% raw %}{%- if site.valine.enable -%}{% endraw %}
+<!--LeanCloud 操作库:-->
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<!--Valine 代码库:-->
+<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+<div id="vcomment"></div>
+    <script>
+        var valine = new Valine();
+        valine.init({
+            el: '#vcomment' ,
+            appId: {% raw %} '{{ site.valine.appid }}', {% endraw %}
+            appKey: {% raw %} '{{ site.valine.appkey }}', {% endraw %}
+            path: {% raw %} '{{ page.url }}', {% endraw %}
+            enableqq: {% raw %} '{{ site.valine.enableQQ }}' {% endraw %}
+        });
+    </script>
+{% raw %}{%- endif -%}{% endraw %}
+```
+
+这样你的评论系统就配置完成了。
+
+
+
+
+

@@ -30,7 +30,8 @@
             el: '#vcomment' ,
             appId: '{{ site.valine.appid }}',
             appKey: '{{ site.valine.appkey }}',
-            path: '{{ page.url }}'
+            path: '{{ page.url }}',
+            enableQQ: '{{ site.valine.enableQQ }}'
         });
     </script>
 {%- endif -%}
