@@ -12,7 +12,7 @@ Computer Science
 
 University of Waterloo
 
-刚刚开始写网页的萌新玩家，应该会长期更新 (=￣ω￣=)
+刚刚开始写网页的萌新玩家，一周发一到两次帖子，应该会长期更新 (=￣ω￣=)
 
 ## Contact Me
 
