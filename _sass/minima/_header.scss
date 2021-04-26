@@ -110,7 +110,7 @@
     }
 
     .page-link {
-      display: inline;
+      display: inline-block;
       padding: 0;
       border: none;
 
@@ -119,6 +119,10 @@
         margin-right: 10px;
       }
       margin-left: 10px;
+    }
+
+    .active { 
+      background-color: rgb(192, 192, 192);
     }
   }
 }
