@@ -39,7 +39,7 @@ Valine官网教程：<https://valine.js.org/en/quickstart.html>
 
 ### 添加代码
 
-首先打开```config.yml```，在里面添加
+首先打开```_config.yml```，在里面添加
 
 ``` yml
 valine: 
