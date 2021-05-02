@@ -45,6 +45,7 @@ valine:
 theme: minima
 plugins:
   - jekyll-paginate
+  - jekyll-redirect-from
 
 # paginate
 gems: [jekyll-paginate]
