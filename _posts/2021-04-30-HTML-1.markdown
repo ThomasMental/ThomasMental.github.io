@@ -2,6 +2,7 @@
 layout: redirect
 title: 慕课 HTML+CSS 教程
 categories: HTML
+redirect_from: posts/2021-04-30-HTML-1.markdown
 redirect_to:
     http://www.imooc.com/learn/9
 ---
