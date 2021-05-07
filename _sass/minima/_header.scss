@@ -116,8 +116,9 @@
 
     }
 
-    .active { 
+    .page-link:hover {
       background-color: #e1e1e1cc;
+      text-decoration: none;
     }
   }
 }
