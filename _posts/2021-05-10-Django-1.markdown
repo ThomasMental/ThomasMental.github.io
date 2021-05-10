@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Django 入门(1)
+title: Django 入门 
 categories: Django
 date: 2021-05-10
 author: Taochen
@@ -90,4 +90,4 @@ $ python manage.py runserver
 
 ## 传送门
 
-下一章: Django 入门(2)
+下一章: Django 应用
