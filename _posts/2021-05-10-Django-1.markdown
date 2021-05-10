@@ -1,0 +1,91 @@
+---
+layout: post
+title: Django 入门(1)
+categories: Django
+date: 2021-05-10
+author: Taochen
+---
+
+静态博客的搭建其实写的也差不多（好吧博客搭建是差不多，JS啥的压根还没讲，本人也还在学习中）。写点最近在看的东西，关于 Django 开发自己的网页应用。
+
+首先，Django 是一个**Web框架**，用于开发交互式网站的工具。Django 能够响应网页请求，同时管理用户及读写数据库。
+
+再说说为什么使用 Django。Django 从来不是一个主流的框架，Java 才是 Web 的大头。但是，这玩意上手快，写的快，封装的东西开箱即用，python 的库有多方便不用我多说吧。当然，这东西限于小项目，和 Flask 相比也不太灵活（完成任务 Django 合适，加深理解 Flask 更好），当然尝试一下没什么问题。
+
+废话不多说，直接上手。
+
+## 建立项目
+
+### 激活虚拟环境
+
+Python安装不提。首先我们先创建虚拟工作环境。新建文件夹，切换到文件夹目录下，打开 Git Bash 然后执行下列命令
+
+```
+$ python -m venv env
+```
+
+建立完之后我们得到一个文件夹```env```，找到 activate 的位置并激活。运行如下
+
+```
+$ source env/scripts/activate
+(my_project)
+```
+
+括号代表的是环境处于激活状态，环境名将包含于括号内。激活环境之后就可以安装 Django 了。
+
+### 安装 Django
+
+运行下列命令
+
+```
+$ pip install Django
+```
+
+显示```Successfully installed Django```安装成功。
+
+### Django 创建项目
+
+运行下列命令
+
+```
+$ django-admin startproject project .
+```
+
+得到大致如下的文件夹目录
+```
+.
+├─ env
+├─ project
+│  ├─ __init__.py
+│  ├─ asgi.py
+│  ├─ settings.py
+│  ├─ urls.py
+│  └─ wsgi.py
+└─ manage.py
+```
+
+### 创建数据库
+
+运行下列命令
+
+```
+$ python manage.py migrate
+```
+
+当前文件夹下会新增```db.sqlite3```文件。SQLite是使用单个文件的数据库，适合简单的应用程序。
+
+## 查看项目
+
+运行下列命令
+
+```
+$ python manage.py runserver
+```
+
+然后访问网页<http://127.0.0.1:8000/>，加载出来会显示你成功建立项目。
+
+## 后续
+
+我用 Django 的一个原因是因为 Jekyll 是一个静态博客系统，所以我后面是打算学着建一个带注册登录功能的个人博客。当然在我学成前我并不打算租服务器和域名。可能我会服务器白嫖GCP的，毕竟三百刀一年试用，我可以多注册点邮箱去嫖(๑‾ ꇴ ‾๑)，而且这样域名就不用备案啦哈哈哈。
+
+

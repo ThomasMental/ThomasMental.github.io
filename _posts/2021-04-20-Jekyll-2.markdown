@@ -26,7 +26,7 @@ author: Taochen
 ├─ about.markdown
 ├─ Gemfile
 ├─ Gemfile.lock
-├─ index.markdown
+└─ index.markdown
 ```
 
 在自己设计博客一般会用到以下几个文件夹，**如果准备套模板可以忽略这些内容，这里建议锻炼一下自己的前端三件套(html, css, javascript)的能力**
