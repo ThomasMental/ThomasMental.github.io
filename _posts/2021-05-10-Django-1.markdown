@@ -31,11 +31,11 @@ $ source env/scripts/activate
 (my_project)
 ```
 
-括号代表的是环境处于激活状态，环境名将包含于括号内。激活环境之后就可以安装 Django 了。
+括号代表的是环境处于激活状态，**后面所有的操作都请保持激活**，环境名将包含于括号内。激活环境之后就可以安装 Django 了。
 
 ### 安装 Django
 
-运行下列命令
+然后运行下列命令
 
 ```
 $ pip install Django
