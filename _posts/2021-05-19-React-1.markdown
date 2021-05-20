@@ -1,0 +1,101 @@
+---
+layout: post
+title: React 开篇 - 创建一个网页
+categories: Javascript
+date: 2021-05-19
+author: Taochen
+---
+
+请在看完 JS 的基础语法(指学到DOM)后，再读这篇文章。
+
+## React Intro 介绍
+
+简单来说，React 是JS的一个库，是一个做 UI的工具。
+
+### 工作原理
+
+React 的工作原理是在内存中创建一个虚拟的 DOM，在这个虚拟 DOM 中做完操作，再去更改浏览器 DOM。在使用时，React 可以直接写入 HTML。
+
+## Prerequisite 关于环境
+
+在使用 React 前，首先先要安装 NPM 和 Node.js。不多说，直接下载链接扔在这
+
+[NPM 和 Node.js 下载](https://nodejs.org/en/download/)
+
+## Hello World 第一个程序
+
+如果做只是测试的话，我们可以直接写在 HTML 文件中
+
+``` html
+<!DOCTYPE html>
+<html>
+<script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+<script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+<script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+<body>
+  
+<div id="mydiv"></div>
+
+<script type="text/babel">
+class Hello extends React.Component {
+  render() {
+    return <h1>Hello World!</h1>
+  }
+}
+
+ReactDOM.render(<Hello/>, document.getElementById('mydiv'))
+</script>
+
+</body>
+</html>
+```
+
+body 段的代码运行结果等同于
+
+``` html
+<div id="mydiv">
+    <h1>Hello World!</h1>
+</div>
+```
+
+但是在写的时候最好建立 React 环境。运行下列命令
+
+```
+npm install -g create-react-app 
+npx create-react-app firstapp
+```
+
+第二行命令建立了一个叫```firstapp```的文件夹。用下列代码可以运行
+
+```
+cd firstapp
+npm start
+```
+
+就可以看到初始的界面。下一步我们可以尝试更改```src/App.js```来创建自己的网页。例如将 ```App.js```改成如下的代码
+
+``` javascript
+import React, { Component } from 'react';
+import './App.css'
+
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <h1>Hello World!</h1>
+      </div>
+    );
+  }
+}
+
+export default App;
+```
+
+我们将得到一个只有一个 Hello World 的网页。
+
+
+
+
+
+
+
