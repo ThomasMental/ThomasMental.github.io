@@ -141,3 +141,5 @@ render() {
     <h1>I am a Ford Car!</h1>
 </div>
 ```
+
+和```state```不同的是，```props```是无法改变的属性（试图改变```props```会报错）
