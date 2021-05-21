@@ -1,0 +1,143 @@
+---
+layout: post
+title: React 基础 - Component
+categories: Javascript
+date: 2021-05-21
+author: Taochen
+---
+
+React Components 作用可以类似于 JS 的函数和类，但是可以通过```render()```函数直接返回HTML代码块。 
+
+## Create Class 创建类
+
+在我们的源代码里面，我们已经有一个 App 类。大致是这样的：
+
+``` javascript
+class App extends Component {
+  render() {
+    return (
+        /* html code */
+    );
+  }
+}
+```
+
+现在我们创建一个名为 Car 的类，然后将内容返回到 App 类中，如下所示：
+
+``` javascript
+class Car extends Component {
+  render() {
+    return (
+        <h1>I am a Car!</h1>
+    );
+  }
+}
+
+class App extends Component {
+  render() {
+    return (
+        <div class="App">
+            <Car />  
+        </div>
+    );
+  }
+}
+```
+
+上述代码返回的 HTML 代码等同于
+
+``` html
+<div class="App">
+    <h1>I am a Car</h1>
+</div>
+```
+
+## 构造器 Constructor
+
+在讲构造器之前我们先理解一下```state```。```state```是一个存属性的对象。例如在创建的 Car 类中，加入这样的一段代码
+
+``` javascript
+class Car extends Component {
+  constructor() {
+    super();
+    this.state = {
+        color: "red",
+    };
+  }
+
+  render() {
+    return (
+        <h1>I am a {this.state.color} Car!</h1>
+    );
+  }
+}
+```
+
+返回的 HTML 代码等同于
+
+``` html
+<h1>I am a red Car!</h1>
+```
+
+在上面的代码中，我们加入了```state```属性，设置 color 为 red。在调用时，我们使用```{ this.state.color }```来获取这个属性。
+
+## Change State 改变属性
+
+我们可以添加函数来改变属性，比如改变 color，我们就在类里加上下面的函数
+
+``` javascript
+changeColor = () => {
+    this.setState({color: "blue"});
+}
+```
+
+然后添加一个按钮调用这个函数，将```render()```写为 
+
+``` javascript
+render() {
+    return (
+        <div>
+            <h1>I am a {this.state.color} Car!</h1>
+            <button onClick={this.changeColor}>Change Color</button> 
+        </div>
+    );
+}
+```
+
+点击按钮，标题里的 red 变为 blue。
+
+## Props
+
+```Props```用于传递属性给 Component，比如我们在 App 类里这样写
+
+``` javascript
+class App extends Component {
+  render() {
+    return (
+        <div class="App">
+            <Car brand="Ford"/>
+        </div>
+    );
+  }
+}
+```
+
+这段代码中的 Car 有了一个属性叫做 brand，数值为 Ford。这样我们就能在 Car 中调用这个函数，例如在```render()```中写
+
+``` javascript
+render() {
+    return (
+        <div>
+            <h1>I am a {this.props.brand} Car!</h1>
+        </div>
+    );
+}
+```
+
+这样返回的HTML代码就代表了
+
+``` html
+<div>
+    <h1>I am a Ford Car!</h1>
+</div>
+```
