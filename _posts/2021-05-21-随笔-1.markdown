@@ -1,0 +1,19 @@
+---
+layout: post
+title: 吐槽 WE Accelerate
+categories: 随意吐槽
+date: 2021-08-13
+author: Taochen
+---
+
+8月13日，阴天，结束了第一次coop。
+
+第一次 coop 找工作大失败，选择了学校的 WE Accelerate 项目。WE 选了 Microsoft stream。
+
+对外宣传学一个月的 Azure 和 AI 知识，实则花了一个月看 Microsoft 的免费教材然后考两场试。考试内容在谷歌上直接有题库，花一个月搞这个多少有点无语。
+
+关于项目部分，代码能力几乎无提升。你花了一个月，和你的小组成员拖着模块建了个模型，做了个演讲。然后。。就没然后了。。
+
+**总结：能不选WE就永远别选**。
+
+如果选了，建议找办法自救。
