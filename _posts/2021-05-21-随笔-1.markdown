@@ -10,7 +10,7 @@ author: Taochen
 
 8月13日，阴天，结束了第一次coop。
 
-第一次 coop 找工作大失败，不知道是因为简历不过关(?)，还是我填Form出了什么问题。所幸选择了学校的 WE Accelerate 项目，WE 选了 Microsoft stream。
+第一次 coop, 学校的 WE Accelerate 项目，WE 选了 Microsoft stream。
 
 花了一个月看 Microsoft 的教材然后考两场试。内容都是Azure和AI理论知识，不考操作。这段时间仅有的操作大概是教材上的命令行，感觉有点欠缺，虽然这方面也就查一下就能操作。
 
