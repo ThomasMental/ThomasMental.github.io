@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 吐槽 WE Accelerate
-categories: 随意吐槽
+title: 关于第一次coop - WE Accelerate
+categories: 随笔
 date: 2021-08-13
 author: Taochen
 ---
@@ -18,6 +18,6 @@ author: Taochen
 
 当然，虽然有一些吐槽的点，结果还是不错的。
 
-**在有适合的工作的情况下，WE并不是一个很好的选项。**也有可能是我第一次coop，对工作不太了解，因为我本身比较喜欢更多的代码内容。
+可能是我第一次coop，对工作不太了解，所以吐槽了点东西吧。因为我本身比较喜欢更多的代码内容。
 
 希望下学期能找个好工作吧。。
