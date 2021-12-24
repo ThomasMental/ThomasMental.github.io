@@ -12,7 +12,7 @@ author: Taochen
 </head>
 <body marginwidth="0" marginheight="0">
 <div id="chrismas">
-<canvas id="c" height="356" width="446">
+<canvas id="c">
 </div>
 <script>
 var collapsed = true;
