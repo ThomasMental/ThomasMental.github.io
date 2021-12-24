@@ -6,8 +6,6 @@ date: 2021-12-24
 author: Taochen
 ---
 
-## 圣诞快乐
-
 <html>
 <head>
 <meta charset="utf-8">
@@ -179,7 +177,7 @@ a.drawImage(M[L[3]+1],207+L[0]*A+L[2]*T(D)>>0,L[1]>>1))
 {
 if(i==2e3)
 a.fillText
-('Happy Christmas!',U,345);
+('Merry Christmas!',U,345);
 if(!(i%7))
 a.drawImage(M[13],
 ((157*(i*i)+T(D*5+i*i)*5)%W)>>0,
