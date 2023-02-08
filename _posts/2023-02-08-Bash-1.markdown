@@ -1,0 +1,59 @@
+---
+layout: post
+title: 关于CentOS中升级Python3.6到Python3.9
+categories: Bash
+date: 2023-02-08
+author: Taochen
+---
+
+最近在自己的服务器中部署基于openai的公众号python脚本。`CentOS 7`以及`CentOS 8`中使用的是`Python3.6`。
+由于openai对Python版本有一定需求，使用openais时我们需要用高版本的`Python3.9`。
+
+## 准备工作
+
+首先ssh连接到远程服务器控制台。用下面代码做系统更新。
+``` 
+sudo yum -y install epel-release
+sudo yum -y update
+```
+
+用下面代码安装一些依赖项，对于安装`Python3.9`很重要
+```
+sudo yum groupinstall "Development Tools" -y
+sudo yum install openssl-devel libffi-devel bzip2-devel -y
+```
+
+检查下`gcc`安装情况
+```
+$ gcc --version
+gcc (GCC) 8.5.0 20210514 (Red Hat 8.5.0-4)
+```
+
+## 下载Python3.9
+
+确保wget成功安装
+```
+sudo yum install wget -y
+```
+
+使用wget下载`Python3.9`，并解压安装包进入文件夹
+```
+wget https://www.python.org/ftp/python/3.9.13/Python-3.9.13.tgz
+tar xvf Python-3.9.13.tgz
+cd Python-3.9*/
+```
+
+## 安装Python3.9
+
+在当前文件夹下执行代码来安装
+```
+./configure --enable-loadable-sqlite-extensions --enable-optimizations
+make
+make install
+```
+
+安装完毕运行`python3.9`和`pip3.9`即可使用
+```
+$ python3.9 --version
+Python 3.9.13
+```
